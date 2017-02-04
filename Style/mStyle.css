@@ -20,6 +20,6 @@
 }
 
 .list-view {
-    -fx-padding: 0px;
+    -fx-padding: 1px;
     -fx-background-color: #000000;
 }
