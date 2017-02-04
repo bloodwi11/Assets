@@ -1,7 +1,7 @@
 .grid {
     -fx-hgap: 0;
     -fx-vgap: 0;
-    -fx-grid-lines-visable: false
+    -fx-grid-lines-visable: false;
     -fx-background-color: #465866;
     -fx-border-color: #697680;
     -fx-border-radius: 5 5 5 5;
