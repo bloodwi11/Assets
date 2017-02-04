@@ -1,6 +1,6 @@
 .list-cell {
-    -fx-hgap: 1;
-    -fx-vgap: 1;
+    -fx-hgap: 0;
+    -fx-vgap: 0;
     -fx-padding: 1px;
     -fx-background-color: #465866;
     -fx-border-color: #697680;
