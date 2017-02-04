@@ -12,7 +12,6 @@
 .list-cell .button {
     -fx-hgap: 0;
     -fx-vgap: 0;
-    -fx-stroke-dash-array:25d 10d;
 }
 .list-cell:selected {
     -fx-background-color: #F1B65A;
