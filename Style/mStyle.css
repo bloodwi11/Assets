@@ -29,5 +29,5 @@
 .list-view {
     -fx-padding: 3px;
     -fx-background-color: #000000;
-    -fx-background-color: transparent, -fx-background;
+    -fx-background-color: transparent;
 }
