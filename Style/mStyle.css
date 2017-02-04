@@ -28,6 +28,6 @@
 
 .list-view {
     -fx-padding: 3px;
-    -fx-stroke-width: 0px;
+    -fx-background-color: #000000;
     -fx-background-color: transparent, -fx-background;
 }
