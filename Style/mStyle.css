@@ -2,6 +2,7 @@
     -fx-hgap: 0;
     -fx-vgap: 0;
     -fx-padding: 0px;
+    -fx-stroke-width: 0px;
     -fx-background-color: #465866;
     -fx-border-color: #697680;
     -fx-border-radius: 5 5 5 5;
