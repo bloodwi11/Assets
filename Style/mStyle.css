@@ -1,6 +1,6 @@
 .list-cell {
-    -fx-hgap: 0;
-    -fx-vgap: 0;
+    -fx-hgap: 1;
+    -fx-vgap: 1;
     -fx-padding: 1px;
     -fx-background-color: #465866;
     -fx-border-color: #697680;
@@ -21,6 +21,6 @@
 }
 
 .list-view {
-    -fx-padding: 2px;
+    -fx-padding: 1px;
     -fx-background-color: #000000;
 }
