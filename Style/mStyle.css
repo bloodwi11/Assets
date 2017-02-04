@@ -7,6 +7,7 @@
     -fx-border-color: #697680;
     -fx-border-radius: 5 5 5 5;
     -fx-background-radius: 5 5 5 5;
+    -fx-background-color: transparent, -fx-background;
 }
 
 .list-cell .button {
