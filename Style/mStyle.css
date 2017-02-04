@@ -27,6 +27,6 @@
 }
 
 .list-view {
-    -fx-padding: 1px;
+    -fx-padding: 3px;
     -fx-background-color: #000000;
 }
