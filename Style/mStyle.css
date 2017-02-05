@@ -1,10 +1,10 @@
 .list-cell {
     -fx-hgap: 0;
     -fx-vgap: 0;
-    -fx-padding: 0px;
-    -fx-stroke-width: 0px;
-    -fx-background-color: #465866;
-    -fx-border-color: #697680;
+    -fx-border-width: 1;
+    -fx-padding: 1px;
+    -fx-background-color: #2D383C;
+    -fx-border-color: #78B5C7;
     -fx-border-radius: 5 5 5 5;
     -fx-background-radius: 5 5 5 5;
 }
@@ -12,20 +12,38 @@
 .list-cell .button {
     -fx-hgap: 0;
     -fx-vgap: 0;
+    -fx-text-fill: #F69C14;
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
 }
+
 .list-cell:selected {
-    -fx-background-color: #F1B65A;
+    -fx-background-color: #4596AB;
 }
 
 .list-cell .label {
-    -fx-text-fill: #FFFFFF;
+    -fx-text-fill: #F69C14;
 }
 
 .list-cell:selected .label {
     -fx-text-fill: #000000;
 }
 
+.list-cell:empty {
+    -fx-border-width: 0;
+    -fx-background-color: transparent;
+}
+
 .list-view {
-    -fx-padding: 3px;
+    -fx-padding: 3;
+    -fx-hgap: 3;
     -fx-background-color: #000000;
+}
+
+.hbox {
+    -fx-border-width: 1;
+    -fx-border-color: #78B5C7;
+    -fx-background-color: #2D383C;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
 }
