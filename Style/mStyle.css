@@ -40,7 +40,7 @@
     -fx-background-color: #000000;
 }
 
-.hbox {
+#item-box {
     -fx-border-width: 1;
     -fx-border-color: #78B5C7;
     -fx-background-color: #2D383C;
