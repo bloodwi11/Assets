@@ -48,3 +48,99 @@
     /* -fx-padding: 0.416667em 0.166667em 0.0em 0.833em; /* 5 2 0 10 */
     -fx-padding: 0.416667em 0.166667em 0.0em 0.0em; /* overriden as 5 2 0 0 */
 }
+
+.titled-pane {
+    -fx-text-fill: #4596AB;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.titled-pane:hover {
+    -fx-text-fill: #78B5C7;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.titled-pane:focused {
+    -fx-text-fill: #F1B65A;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.titled-pane > .title {
+    -fx-background-color: #2D383C;
+}
+
+.titled-pane > *.content {
+    -fx-background-color: #2D383C;
+    -fx-border-color: transparent;
+}
+
+.button {
+    -fx-font-size: 10px;
+    -fx-text-fill: #4596AB;
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-font-size: 10px;
+    -fx-text-fill: #78B5C7;
+}
+
+.button:focused {
+    -fx-font-size: 10px;
+    -fx-text-fill: #F1B65A;
+}
+
+.titled-pane > .title > .arrow-button .arrow {
+    -fx-mark-color: #4596AB;
+    -fx-mark-highlight-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.titled-pane:hover > .title > .arrow-button .arrow {
+    -fx-mark-color: #78B5C7;
+}
+
+.titled-pane:focused > .title > .arrow-button .arrow {
+    -fx-mark-color: #F1B65A;
+}
+
+#settingsList {
+    -fx-padding: 10 0 0 0;
+    -fx-background-color: #2D383C;
+    -fx-background-radius: 5 5 5 5;
+    -fx-background-insets: 4 0 5 5;
+}
+
+#settingsEditor {
+    -fx-padding: 10 0 0 0;
+    -fx-background-color: #2D383C;
+    -fx-background-radius: 5 5 5 5;
+    -fx-background-insets: 4 0 5 0;
+}
+
+#debug {
+    -fx-border-color: red;
+    -fx-border-width: 1;
+}
+
+#round {
+    -fx-background-color: #78B5C7, -fx-background, #146C82 -fx-background;
+    -fx-background-insets: 0, 1, 1;
+    -fx-background-radius: 5em;
+    -fx-min-width: 20px;
+    -fx-min-height: 20px;
+    -fx-max-width: 20px;
+    -fx-max-height: 20px;
+    -fx-padding: 0 0 1 0;
+}
+
+#round:hover {
+    -fx-text-fill: #78B5C7;
+}
+
+#round:focused {
+    -fx-text-fill: #F1B65A;
+}
