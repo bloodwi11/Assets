@@ -6,6 +6,10 @@
     -fx-background-color: transparent;
 }
 
+.label {
+    -fx-text-fill: #4596AB;
+}
+
 .tab-pane {
     -fx-tab-min-width: 90px;
     -fx-background-color: #78B5C7, -fx-background, #146C82 -fx-background;
@@ -111,14 +115,18 @@
     -fx-padding: 10 0 0 0;
     -fx-background-color: #2D383C;
     -fx-background-radius: 5 5 5 5;
-    -fx-background-insets: 4 0 5 5;
+    -fx-background-insets: 4 1 7 5;
 }
 
 #settingsEditor {
     -fx-padding: 10 0 0 0;
     -fx-background-color: #2D383C;
     -fx-background-radius: 5 5 5 5;
-    -fx-background-insets: 4 0 5 0;
+    -fx-background-insets: 4 1 7 0;
+}
+
+#editorPanel {
+    -fx-border-insets: 0 6 22 6;
 }
 
 #debug {
@@ -127,7 +135,7 @@
 }
 
 #round {
-    -fx-background-color: #78B5C7, -fx-background, #146C82 -fx-background;
+    -fx-background-color: #78B5C7, -fx-background, #2D383C -fx-background;
     -fx-background-insets: 0, 1, 1;
     -fx-background-radius: 5em;
     -fx-min-width: 20px;
@@ -138,9 +146,7 @@
 }
 
 #round:hover {
+    -fx-background-color: #78B5C7, -fx-background, #146C82 -fx-background;
+    -fx-background-insets: 0, 1, 1;
     -fx-text-fill: #78B5C7;
-}
-
-#round:focused {
-    -fx-text-fill: #F1B65A;
 }
