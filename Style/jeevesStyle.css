@@ -71,6 +71,12 @@
     -fx-font-weight: bold;
 }
 
+.titled-pane:selected {
+    -fx-text-fill: #F1B65A;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
 .titled-pane > .title {
     -fx-background-color: #2D383C;
 }
@@ -111,6 +117,60 @@
     -fx-mark-color: #F1B65A;
 }
 
+.list-view {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-border-radius: 5 5 5 5;
+    -fx-border-color: #78B5C7;
+}
+
+.list-view:empty {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.list-view .scroll-bar {
+    -fx-border-radius: 3 3 3 3;
+    -fx-border-color: #78B5C7;
+    -fx-background-color: #2D383C;
+}
+
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #4596AB;
+    -fx-background-insets: 0 3 0 2;
+}
+
+.list-view .scroll-bar:horizontal .thumb {
+    -fx-background-color: #4596AB;
+    -fx-background-insets: 2 0 3 0;
+}
+
+.list-view .increment-button:hover, .list-view .decrement-button:hover {
+    -fx-background-color: transparent;
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+}
+
+.list-cell:focused .label {
+    -fx-text-fill: #F1B65A;
+}
+
+.list-cell:focused {
+    -fx-background-color: #146C82;
+}
+
+.check-box .box {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: #4596AB;
+    -fx-border-color: #78B5C7;
+    -fx-background-radius: 3;
+    -fx-border-radius: 3;
+}
+
 #settingsList {
     -fx-padding: 10 0 0 0;
     -fx-background-color: #2D383C;
@@ -127,6 +187,8 @@
 
 #editorPanel {
     -fx-border-insets: 0 6 22 6;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
 }
 
 #debug {
@@ -149,4 +211,16 @@
     -fx-background-color: #78B5C7, -fx-background, #146C82 -fx-background;
     -fx-background-insets: 0, 1, 1;
     -fx-text-fill: #78B5C7;
+}
+
+#arrow {
+    -fx-background-color: #78B5C7, #146C82 -fx-background;
+    -fx-background-insets: 0, 1, 1;
+    -fx-background-radius: 5 5 5 5;
+    -fx-text-fill: #78B5C7;
+}
+
+#arrow:armed {
+    -fx-background-color: #78B5C7, #F1B65A -fx-background;
+    -fx-text-fill: #146C82;
 }
